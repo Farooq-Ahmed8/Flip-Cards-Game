@@ -13,31 +13,32 @@ body{
 .images{
     width: 50vw;
     height: 50vh;
-    margin:0 auto;
-    padding-top: 50px;
     display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
     justify-content: space-between;
 }
-img{
+img {
     width: 15vw;
     height: 40vh;
     cursor: pointer;
 }
-#message #score{
+#message, #scoreBoard{
     text-align: center;
     font-size: 28px;
     margin-top: 10px;
     color: #fff;
 }
-button{
-    width: 28vw;
+
+button {
+    width: 28vh;
     height: 11vh;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 7px;
+    border: 2px solid #ff0000;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    border: 1px solid #686868;
 }

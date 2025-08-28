@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Card Game with Score</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container">    
         <div class="images">
-            <img id="img1" onclick="flipCard()" src="card-backside.png" alt="card">
-            <img id="img2" onclick="flipCard()" src="card-backside.png" alt="card">
-            <img id="img3" onclick="flipCard()" src="card-backside.png" alt="card">
+            <img id="img1" onClick="flipCard(1)" src="card-backside.png" alt="cards">
+            <img id="img2" onClick="flipCard(2)" src="card-backside.png" alt="cards">
+            <img id="img3" onClick="flipCard(3)" src="card-backside.png" alt="cards">
         </div>
         <p id="message"></p>
-        <p id="score">Score: 0</p>
+        <p id="scoreBoard">Score: 0</p>
     </div>
     <button onclick="reset()">Reset Game</button>
-    
 
     <script src="app.js"></script>
 </body>
